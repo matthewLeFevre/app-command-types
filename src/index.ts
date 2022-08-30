@@ -1,7 +1,7 @@
 // app command
-export interface AppUserType {
-  Admin;
-  Basic;
+export enum AppUserType {
+  Admin = "ADMIN",
+  Basic = "BASIC",
 }
 export enum AppUserPrivilege {
   DisableUser,
