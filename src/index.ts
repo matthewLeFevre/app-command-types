@@ -27,7 +27,7 @@ export interface Project {
   id: string;
   userId: string;
   users: string[];
-  service: Service[];
+  services: Service[];
   description?: string;
   name: string;
   logoUrl?: string;
